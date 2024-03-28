@@ -1,0 +1,133 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+header {
+  background-color: white;
+  color: black;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+nav {
+  display: flex;
+}
+
+nav a {
+  color: #000;
+  text-decoration: none;
+  margin: 0 15px;
+  text-transform: uppercase;
+}
+
+.btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.contentA {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.center {
+  display: block;
+  margin: 0 auto;
+}
+
+.red-text {
+  color: red;
+}
+
+.black-text {
+  color: black;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.gray-text {
+  color: gray;
+}
+
+.bold-text {
+  font-weight: bold;
+}
+
+.contentB {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.running-man-description {
+  flex: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.descriptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.description {
+  margin-left: 20px;
+}
+
+.sidebar {
+  width: 50%;
+  padding: 50px;
+}
+
+.black-text {
+  color: black;
+  font-weight: bold;
+}
+
+.gray-text {
+  color: gray;
+}
+
+ul{
+  display: grid;
+  grid-template-columns: repeat(2, 0.5fr);
+}
+
+.contentC {
+  background-color: #473BF0;
+  
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.Homem_Sorrindo {
+  transform: scaleX(-1);
+  width: 500px;
+  height: 700px;
+}
+
+
+.contentD {
+  background-color: #000;
+  background-image: url(../images/Black_Cover.png);
+
+  padding-top: 50px;
+  color: white;
+}
